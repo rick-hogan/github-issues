@@ -1,0 +1,97 @@
+/*header*/
+
+body {
+	margin: 0;
+	font-family: Arial;
+	background-color: #f7f7f7;
+}
+
+.wrapper {
+	max-width: 1600px;
+	margin: auto;
+	min-width: 600px;
+}
+
+header {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px #ccc;
+	height: 65px;
+	color: #ffffff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+header div {
+	width: 100%;
+	margin: auto;
+}
+
+header img {
+	padding: 0 10px;
+	height: 45px;
+	vertical-align: middle;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a h1 {
+	color: orange;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header a small {
+	padding-left: 5px;
+	color: white;
+	display: inline-block;
+}
+
+header input {
+	min-width: 250px;
+	max-width: 350px;
+	width: 33%;
+	padding: 4px;
+	border-radius: 4px;
+	border: none;
+	float: right;
+	margin: 6px 10px 0 0;
+	height: 24px;
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0;
+}
+
+p {
+	margin-top: 10px;
+}
+
+/*header-end*/
+
+/*landing*/
+.landing-body {
+	width: 98%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.landing-header {
+	padding: 0 20px;
+	height: 24px;
+}
+
+.landing-header h1 {
+	font-size: 28px;
+}
+
+/*panel-end*/
